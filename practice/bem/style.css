@@ -1,0 +1,10 @@
+body{
+	margin:0px;
+}
+
+#header{
+	background-image: url(images/header_back.png);
+	background-size: auto auto;
+	width:100%;
+	height:90%;
+}
