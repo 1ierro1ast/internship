@@ -1,26 +1,101 @@
+@font-face{
+	font-family: MotserratBold;
+	src: url(fonts/MotserratBold.ttf);
+}
+@font-face{
+	font-family: Roboto;
+	src: url(fonts/Roboto.ttf);
+}
+
 body{
-	background-image: url(images/header_back.png);
+	background-image: url(images/header_bg.png);
 	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: top center;
-	display:flex;  
+	background-size: contain;
+	background-position: top center; 
+	margin: 0px;
 }
 
 #header{
-	padding-top: 4%;
-	padding-left: 4%;
+	padding-top: 0.9%;
 	width: 100%;
+	font-size: 1vw;
+	font-family: MotserratBold;
+	color: #ffffff;
+	justify-content: space-between;
 }
 
 #header p{
+	margin-left: 17.3%;
+	font-size: 1.5vw;
 	display:inline-flex;
-	justify-content: flex-start;
 }
 #signup-button{
 	display:inline-flex;
-	justify-content: flex-end;
+	border: 2px solid white;
+	border-radius: 40px;
+	padding-left:1%;
+	padding-right:1%;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	width:auto;
 }
 #login-button{
 	display:inline-flex;
-	justify-content: flex-end;	
+	margin-left: 43.5%;
+	padding-right:1.2%;
+}
+
+#header .title{
+	text-transform: uppercase;
+	font-size: 3.6vw;
+	width:45%;
+	margin-top: 9.1%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#header .subtitle{
+	width:45%;
+	margin-top: 2%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 1.5vw;
+	font-family: Roboto;
+	color: #ffffff;
+}
+
+.fill-button{
+	background-color: #ff4e50;
+	border-radius: 40px;
+	padding: 0.4%;
+	padding-top: 0.8%;
+	padding-bottom: 0.8%;
+	width:15%;
+	text-align: center;
+	font-size: 0.9vw;
+}
+
+#header .fill-button{
+	margin: 2.38%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#how-it-works{
+	min-height: 700px;
+	margin-top: 16.6%;
+	font-family: MotserratBold;
+	color:#333333;
+}
+
+#how-it-works p{
+	font-size: 1.5vw;
+	margin-top: 22.5%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 2.1%;
+	text-align: center;
+	letter-spacing: -0.3px;
 }
