@@ -72,12 +72,12 @@ body{
 	padding: 0.4%;
 	padding-top: 0.8%;
 	padding-bottom: 0.8%;
-	width:15%;
 	text-align: center;
 	font-size: 0.9vw;
 }
 
 #header .fill-button{
+	width:15%;
 	margin: 2.38%;
 	margin-left: auto;
 	margin-right: auto;
@@ -95,7 +95,49 @@ body{
 	margin-top: 22.5%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 2.8%;
 	padding-left: 2.1%;
 	text-align: center;
 	letter-spacing: -0.3px;
+}
+
+#steps{
+	margin-left: 17.4%;
+	width:auto;
+}
+
+.step{
+	float: left;
+	width: 20.6vw;
+	height: 27.3vw;
+	margin-right: 1.4vw;
+	border-radius: 0.5vh;
+	overflow: hidden;
+}
+
+#first-step-img{
+	padding:1.3vw;
+	background-image: url(images/how-it-works-1.png);
+	background-position: center center;
+	background-size: 225%;
+	background-repeat: no-repeat;
+	height: inherit;
+}
+
+#second-step-img{
+	padding:1.3vw;
+	background-image: url(images/how-it-works-2.png);
+	background-position: center center;
+	background-size: 225%;
+	background-repeat: no-repeat;
+	height: inherit
+}
+
+#third-step-img{
+	padding:1.3vw;
+	background-image: url(images/how-it-works-3.png);
+	background-position: center center;
+	background-size: 225%;
+	background-repeat: no-repeat;
+	height: inherit
 }
