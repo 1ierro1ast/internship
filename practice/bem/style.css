@@ -3,6 +3,10 @@
 	src: url(fonts/MotserratBold.ttf);
 }
 @font-face{
+	font-family: Montserrat_Regular;
+	src: url("fonts/Montserrat Regular.ttf");
+}
+@font-face{
 	font-family: Roboto;
 	src: url(fonts/Roboto.ttf);
 }
@@ -13,6 +17,7 @@ body{
 	background-size: contain;
 	background-position: top center; 
 	margin: 0px;
+	max-width: 1440px;
 }
 
 #header{
@@ -74,6 +79,8 @@ body{
 	padding-bottom: 0.8%;
 	text-align: center;
 	font-size: 0.9vw;
+	font-family: Roboto;
+	width: auto;
 }
 
 #header .fill-button{
@@ -81,6 +88,7 @@ body{
 	margin: 2.38%;
 	margin-left: auto;
 	margin-right: auto;
+	font-family: MotserratBold;
 }
 
 #how-it-works{
@@ -96,7 +104,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 2.8%;
-	padding-left: 2.1%;
+	padding-left: -2%;
 	text-align: center;
 	letter-spacing: -0.3px;
 }
@@ -104,6 +112,7 @@ body{
 #steps{
 	margin-left: 17.4%;
 	width:auto;
+	color: white;
 }
 
 .step{
@@ -116,8 +125,8 @@ body{
 }
 
 #first-step-img{
-	padding:1.3vw;
-	background-image: url(images/how-it-works-1.png);
+	padding:1.4vw;
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(255,255,255,.0)), url(images/how-it-works-1.png);
 	background-position: center center;
 	background-size: 225%;
 	background-repeat: no-repeat;
@@ -125,8 +134,8 @@ body{
 }
 
 #second-step-img{
-	padding:1.3vw;
-	background-image: url(images/how-it-works-2.png);
+	padding:1.4vw;
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(255,255,255,.0)), url(images/how-it-works-2.png);
 	background-position: center center;
 	background-size: 225%;
 	background-repeat: no-repeat;
@@ -134,10 +143,34 @@ body{
 }
 
 #third-step-img{
-	padding:1.3vw;
-	background-image: url(images/how-it-works-3.png);
+	padding:1.4vw;
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, .8), rgba(255,255,255,.0)), url(images/how-it-works-3.png);
 	background-position: center center;
 	background-size: 225%;
 	background-repeat: no-repeat;
 	height: inherit
+}
+
+#first-step-img{
+	display: flex;
+	flex-direction: column;
+}
+
+#first-step-img .fill-button, #second-step-img .fill-button, #third-step-img .fill-button{
+	width: 20%;
+	font-size: 0.7vw;
+	letter-spacing: 0.12vw;
+	padding: 1.7%;
+	padding-right: 3.5%;
+	padding-left: 3.5%;
+	text-align: center;
+}
+
+.step-title{
+	font-size: 1.7vw;
+	letter-spacing: -0.03vw;
+}
+.step-description{
+	flex-grow: 1;
+	height: 2vw;
 }
